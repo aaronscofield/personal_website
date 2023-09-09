@@ -1,6 +1,6 @@
 <template>
     <div class = "button">
-        <p>{{ title }}</p>
+        <a :href=link>{{ title }}</a>
     </div>
 </template>
 
@@ -8,7 +8,8 @@
 export default {
     name: 'NavbarButton',
     props: {
-        title: String
+        title: String,
+        link: String
     }
 }
 </script>

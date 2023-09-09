@@ -1,12 +1,20 @@
 .button {
-    text-align: center;
-    padding: 0px;
     margin:  auto;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    border-radius: 6px;
     font-family: "NotoSansOsmanya";
 }
 
+a {
+    color: #e2e0e0;
+    text-decoration: none;
+}
+
 .button:hover{
-    background-color: antiquewhite;
+    background-color: rgb(46, 46, 46);
 }
 
 @font-face {

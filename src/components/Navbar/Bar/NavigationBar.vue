@@ -3,7 +3,7 @@
         <NavbarButton title="About Me"/>
         <NavbarButton title="Resume"/>
         <NavbarButton title="Resume"/>
-        <NavbarButton title="LinkedIn"/>
+        <NavbarButton title="LinkedIn" link="https://www.linkedin.com/in/aaroncscofield/"/>
     </div>
 </template>
 

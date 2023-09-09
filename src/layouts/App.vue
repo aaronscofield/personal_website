@@ -1,6 +1,6 @@
 <template>
-  <Header msg="Aaron Scofield"/>
-  <NavigationBar/>
+    <Header msg="Aaron Scofield"/>
+    <NavigationBar/>
 </template>
 
 <script>

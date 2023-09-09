@@ -1,9 +1,12 @@
 #app {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: #292929;
+    color: #e2e0e0;
     margin-top: 50px;
     float: center;
     justify-content: center;
 }
 
+html {
+    background: rgb(35, 35, 35);
+}
