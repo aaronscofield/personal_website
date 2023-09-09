@@ -1,6 +1,7 @@
 <template>
   <div class="header">
-    <h1>{{ msg }}</h1>
+    <p>{{ msg }}</p>
+    <p class="sub">DevOps Engineer | Philadelphia, PA</p>
   </div>
 </template>
 
