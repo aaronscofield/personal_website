@@ -1,0 +1,15 @@
+.button {
+    text-align: center;
+    padding: 0px;
+    margin:  auto;
+    font-family: "NotoSansOsmanya";
+}
+
+.button:hover{
+    background-color: antiquewhite;
+}
+
+@font-face {
+    font-family: 'NotoSansOsmanya';
+    src: url('../../../static/NotoSansOsmanya-Regular.ttf') format('truetype');
+}

@@ -5,8 +5,7 @@
 
 <script>
 import Header from '../components/Header/Header.vue'
-import NavigationBar from '../components/NavigationBar/NavigationBar.vue'
-
+import NavigationBar from '../components/Navbar/Bar/NavigationBar.vue'
 
 export default {
   name: 'App',
