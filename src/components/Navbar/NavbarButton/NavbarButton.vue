@@ -1,6 +1,9 @@
 <template>
-    <div class = "button">
-        <a :href=link>{{ title }}</a>
+    <div v-if="!external" class = "button">
+        <router-link :to="link">{{ title }}</router-link>
+    </div>
+    <div v-if="external" class = "button">
+        <a :href="link">{{ title }}</a>
     </div>
 </template>
 
@@ -9,7 +12,8 @@ export default {
     name: 'NavbarButton',
     props: {
         title: String,
-        link: String
+        link: String,
+        external: Boolean
     }
 }
 </script>

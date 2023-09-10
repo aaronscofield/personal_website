@@ -1,9 +1,10 @@
 <template>
     <div class="navbar">
-        <NavbarButton title="About Me"/>
-        <NavbarButton title="Resume"/>
-        <NavbarButton title="Resume"/>
-        <NavbarButton title="LinkedIn" link="https://www.linkedin.com/in/aaroncscofield/"/>
+        <NavbarButton title="Home" link="/"/>
+        <NavbarButton title="About Me" link="about"/>
+        <NavbarButton title="Resume" link="resume"/>
+        <NavbarButton title="Cafe Tracker" link="cafe-tracker"/>
+        <NavbarButton title="LinkedIn" external link="https://www.linkedin.com/in/aaroncscofield/"/>
     </div>
 </template>
 

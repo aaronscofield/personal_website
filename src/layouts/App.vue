@@ -1,6 +1,7 @@
 <template>
-    <Header msg="Aaron Scofield"/>
+    <div id="app"><Header msg="Aaron Scofield"/>
     <NavigationBar/>
+    <router-view></router-view></div>
 </template>
 
 <script>
@@ -11,7 +12,7 @@ export default {
   name: 'App',
   components: {
     Header,
-    NavigationBar
+    NavigationBar,
   }
 }
 </script>
