@@ -1,10 +1,10 @@
 <template>
     <div class="navbar">
         <NavbarButton title="Home" link="/"/>
-        <NavbarButton title="About Me" link="about"/>
         <NavbarButton title="Resume" link="resume"/>
         <NavbarButton title="Cafe Tracker" link="cafe-tracker"/>
         <NavbarButton title="LinkedIn" external link="https://www.linkedin.com/in/aaroncscofield/"/>
+        <NavbarButton title="GitHub" external link="https://github.com/aaronscofield"/>
     </div>
 </template>
 
