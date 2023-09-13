@@ -1,0 +1,16 @@
+.footer {
+    font-family: "NotoSansOsmanya";
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: e2e0e0;
+    text-align: center;
+    height: 50px;
+    padding-bottom: 20px;
+}
+
+@font-face {
+    font-family: 'NotoSansOsmanya';
+    src: url('../../static/NotoSansOsmanya-Regular.ttf') format('truetype');
+}

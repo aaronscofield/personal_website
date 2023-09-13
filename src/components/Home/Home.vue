@@ -1,5 +1,7 @@
 <template>
-  <p>Home</p>
+  <div class="home">
+    <img src="../../static/IMG_4810.png">
+  </div>
 </template>
 
 <script>
