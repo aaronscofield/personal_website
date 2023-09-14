@@ -20,5 +20,15 @@ npm run build
 npm run lint
 ```
 
+### Docker build command
+```
+docker build -t personal_website .   
+```
+
+### Docker run command
+```
+docker run personal_project -p 8080:8080
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
