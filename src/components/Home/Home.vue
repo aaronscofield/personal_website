@@ -24,6 +24,7 @@
             <li>Angular</li>
             <li>React</li>
             <li>Vue.js</li>
+            <li>GitHub Actions</li>
           </ul>
         </div>
         <p>
