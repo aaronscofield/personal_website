@@ -7,4 +7,25 @@ img {
 .home {
     padding-left: 12%;
     flex:auto;
+    display: flex;
+}
+
+.bio {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: "NotoSansOsmanya";
+}
+
+a {
+    color: #bfbebe;
+    text-decoration: underline;
+}
+
+#list {
+    display: flex;
+}
+
+@font-face {
+    font-family: 'NotoSansOsmanya';
+    src: url('../../static/NotoSansOsmanya-Regular.ttf') format('truetype');
 }
