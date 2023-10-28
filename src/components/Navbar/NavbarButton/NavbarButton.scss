@@ -9,6 +9,13 @@
     font-size: large;
 }
 
+@media all and (max-width:950px) //800px for tablets and phones.
+{
+    .button {
+        text-align: center;
+    }
+}
+
 a {
     color: #e2e0e0;
     text-decoration: none;
