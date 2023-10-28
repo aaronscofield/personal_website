@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <img src="../../static/IMG_4810.png">
     <div class="bio">
       <p>
         Aaron Scofield is a Software Engineer from Philadelphia, PA. 
@@ -32,6 +31,7 @@
         watching Phillies and Yankee games &#x26BE;, or attending the Philadelphia Orchestra's concerts &#x1F3BB;. 
       </p>
     </div>
+    <img src="../../static/IMG_4810.png" width="460" height="378">
   </div>
 </template>
 

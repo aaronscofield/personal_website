@@ -1,17 +1,35 @@
 img {
-    width: 30%;
-    height: auto;
     box-shadow: 6px 6px rgb(46, 46, 46);
+    max-width: 100%;
+    height: auto;
 }
+
 
 .home {
     padding-left: 12%;
-    flex:auto;
     display: flex;
+    padding-right: 12%
+}
+
+@media all and (max-width:700px) //800px for tablets and phones.
+{
+    .home
+    {
+        display: block; 
+        float: none; 
+
+        font-family: "NotoSansOsmanya";
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .bio {
+        font-family: "NotoSansOsmanya";
+    }
+
 }
 
 .bio {
-    padding-left: 10%;
     padding-right: 10%;
     font-family: "NotoSansOsmanya";
 }
