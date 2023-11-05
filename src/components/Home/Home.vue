@@ -31,7 +31,7 @@
         watching Phillies and Yankee games &#x26BE;, or attending the Philadelphia Orchestra's concerts &#x1F3BB;. 
       </p>
     </div>
-    <img src="../../static/IMG_4810.png" width="460" height="378">
+    <img src="https://usea1-scofield-website-public-assets.s3.amazonaws.com/home-photo.png" width="460" height="378">
   </div>
 </template>
 
