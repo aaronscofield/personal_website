@@ -9,5 +9,10 @@ module "public_s3_bucket" {
 
 module "dynamo_db_table" {
   source     = "./.terraform/modules/dynamodb_table"
-  table_name = "cafe-tracker-dynamodb-table"
+  table_name = "visited-cafes"
+}
+
+module "secretsmanager_secret" {
+  source      = "./.terraform/modules/secretsmanager_secret"
+  secret_name = "personal-website-secret"
 }
