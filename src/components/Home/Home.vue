@@ -33,25 +33,11 @@
     </div>
     <img src="https://usea1-scofield-website-public-assets.s3.amazonaws.com/home-photo.png" width="460" height="378">
   </div>
-  <button @click="fetchData">Click Me!</button>
 </template>
 
 <script>
 export default {
   name: 'Home',
-  methods: {
-		fetchData() {
-			fetch('http://localhost:8000/', {
-				method: 'GET',
-			})
-				.then(response => {
-					response.json().then(res => console.log(res));
-				})
-				.catch(err => {
-					console.error(err);
-				});
-		}
-	}
 }
 </script>
 
