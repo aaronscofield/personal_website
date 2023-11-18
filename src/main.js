@@ -1,16 +1,17 @@
 import { createApp } from 'vue'
 import {createRouter, createWebHistory} from 'vue-router'
 import App from './layouts/App.vue'
-import Resume from './components/Resume/Resume.vue'
-import CafeTracker from './components/CafeTracker/CafeTracker.vue'
-import Home from './components/Home/Home.vue'
+
+function lazyLoad(view){
+    return() => import(`@/components//${view}/${view}.vue`)
+}
 
 const router = createRouter({
     history: createWebHistory(),
     routes:[
-        { path: '/', component: Home},
-        { path: '/resume', component: Resume},
-        { path: '/cafe-tracker', component: CafeTracker}
+        { path: '/', component: lazyLoad('Home')},
+        { path: '/resume', component: lazyLoad('Resume')},
+        { path: '/cafe-tracker', component: lazyLoad('CafeTracker')}
     ]
 });
 
